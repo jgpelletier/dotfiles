@@ -1,9 +1,9 @@
 ; identity
 [user]
-	name = Alan Gutierrez
-	email = alan@prettyrobots.com
+	name = Joshua Pelletier
+	email = jgpelletier@gmail.com
 [github]
-	user = bigeasy
+	user = jgpelletier
 ; aesthetics
 [color]
   ui = true
