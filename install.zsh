@@ -47,7 +47,7 @@ sed -i -e 's/^plugins/# plugins/' ~/.zshrc
 sed -i -e 's/^PATH/# PATH/' ~/.zshrc
 
 if ! [ -e "$HOME/.dotfiles" ]; then
-  git clone git://github.com/bigeasy/dotfiles.git "$DOTFILES"
+  git clone git://github.com/jgpelletier/dotfiles.git "$DOTFILES"
 fi
 
 rsync -a "$DOTFILES/home/unix/" "$HOME/"
